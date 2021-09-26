@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- example 10 -->
     <!-- Write a PHP program to sort an array of positive integers using the Bead-Sort Algorithm.According to Wikipedia 
     "Bead-sort is a natural sorting algorithm, developed by Joshua J. Arulanandham, Cristian S. Calude and Michael 
     J. Dinneen in 2002. Both digital and analog hardware implementations of bead sort can achieve a sorting time of O(n); 
@@ -17,11 +8,7 @@
 
     -->
 
-    <div style="background-color: #8A2BE2; padding: 5px;">
-        <h2>task 10</h2>
-        <?php 
-        
-
+        <?php
         $data = array(5, 3, 1, 3, 8, 7, 4, 1, 1, 3);
 
         print_r($data);
@@ -29,6 +16,4 @@
         rsort($data);
         print_r($data);
        ?>
-    </div>
-</body>
-</html>
+   
